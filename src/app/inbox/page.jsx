@@ -2,7 +2,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar/page";
 import HeaderIn from "../../components/HeaderIn/page";
-import HomePage from "../../components/HomePage/page";
+import Inbox from "../../components/Inbox/page";
 const page = () => {
   return (
     <div className="flex w-screen">
@@ -11,7 +11,7 @@ const page = () => {
       </div>
       <div className="flex flex-col w-full">
         <HeaderIn />
-        <HomePage />
+        <Inbox/>
       </div>
     </div>
   );

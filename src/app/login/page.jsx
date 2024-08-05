@@ -1,7 +1,7 @@
-'use client'
-import React, { useEffect } from "react";
-import google from "../../../public/google.svg";
-import Image from "next/image";
+'use client';
+import React, { useEffect } from 'react';
+import google from '../../../public/google.svg';
+import Image from 'next/image';
 
 const Page = () => {
   const handleLogin = async () => {
@@ -29,16 +29,23 @@ const Page = () => {
           <span className="flex h-[2rem] font-sans text-[1.25rem] text-center font-semibold">
             Create a new account
           </span>
-          <button className="flex h-12 w-full rounded-[0.25rem] border-[1px] border-[#707172] py-[0.5rem] px-[1rem] gap-[10px] justify-center" onClick={handleLogin}>
+          <button
+            className="flex h-12 w-full rounded-[0.25rem] border-[1px] border-[#707172] py-[0.5rem] px-[1rem] gap-[10px] justify-center"
+            onClick={handleLogin}
+          >
             <div className="flex gap-3 h-8 w-[181px] justify-center text-center">
               <Image src={google} width={23} height={32} alt="Google Logo" />
-              <p className="flex font-sans text-base text-center leading-[26px] h-[27px]">Sign Up with Google</p>
+              <p className="flex font-sans text-base text-center leading-[26px] h-[27px]">
+                Sign Up with Google
+              </p>
             </div>
           </button>
         </div>
         <div className="flex flex-col w-[380px] h-[97px] gap-6 items-center">
           <div className="flex h-12 bg-custom-gradient items-center justify-center rounded-[4px] px-[35px] py-[13px] gap-[10px]">
-            <p className="h-[22px] font-semibold text-[14px] text-[#FFFFFF] font-sans">Create an Account</p>
+            <p className="h-[22px] font-semibold text-[14px] text-[#FFFFFF] font-sans">
+              Create an Account
+            </p>
           </div>
           <div className="flex w-[380px] h-[25px] gap-[13px] items-center justify-center">
             <div className="flex h-[25px] gap-[4px]">
