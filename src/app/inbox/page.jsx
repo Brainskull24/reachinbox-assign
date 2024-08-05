@@ -5,7 +5,7 @@ import HeaderIn from "../../components/HeaderIn/page";
 import Inbox from "../../components/Inbox/page";
 const page = () => {
   return (
-    <div className="flex w-screen">
+    <div className="flex w-[100%]">
       <div className="w-fit">
         <Navbar />
       </div>

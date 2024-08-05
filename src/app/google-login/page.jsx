@@ -5,7 +5,7 @@ import HeaderIn from "../../components/HeaderIn/page";
 import HomePage from "../../components/HomePage/page";
 const page = () => {
   return (
-    <div className="flex w-screen">
+    <div className="flex w-full">
       <div className="w-fit">
         <Navbar />
       </div>

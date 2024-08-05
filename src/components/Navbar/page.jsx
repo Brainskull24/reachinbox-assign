@@ -21,7 +21,7 @@ const Page = () => {
   };
 
   return (
-    <div className="flex flex-col w-[3.5rem] min-h-screen border-r-[1px] border-[#343A40] bg-[#101113] items-center justify-center">
+    <div className="flex flex-col w-[3.5rem] h-screen border-r-[1px] border-[#343A40] bg-[#101113] items-center justify-center">
       <div className="flex w-[3rem] h-[4.375rem] pt-2 p-3">
         <Image src={logo} alt="Logo" />
       </div>
